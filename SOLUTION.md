@@ -223,6 +223,11 @@ The solution includes:
 
  - **Bug / To Fix:** Ensure notes are properly associated with each task so that adding or updating a note only affects the relevant task. 
 
+ - **Performance & Scalability Enhancements:**
+    1. Introduce caching for frequently accessed endpoints such as activities, notifications, and company/deal lists.
+
+    2. Add load balancing to distribute traffic across multiple backend instances. This would significantly improve response times, reduce server load, and make the system more resilient as the user base grows.
+
 
 ## Trade-offs
 
@@ -242,3 +247,6 @@ The solution includes:
 - **Improved Tracking:** Users can visually see notifications and review the timeline, making CRM management more transparent and reliable.
 
 - **Better UX:** Loading states and error alerts prevent confusion and improve navigation for new users.
+
+
+# Thank you looking forward to hear from you
